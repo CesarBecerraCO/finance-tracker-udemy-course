@@ -7,11 +7,18 @@ gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 
+#4) Haré lo del curso anterior para bootstrap:
+gem 'bootstrap-sass', '~> 3.3.6'
+
+
 #1) Gestión de usuarios
 gem 'devise'
 #2) Estilo bootstrap
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+
+#3) Stock
+gem 'stock_quote'
 
 
 
@@ -25,7 +32,9 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+#gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
